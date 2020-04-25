@@ -5,7 +5,7 @@ import pickle
 from ewmh import EWMH
 import tkinter as tk
 
-#название файла, куда буду сохранять текст заметок и туда же буду его сохранять
+#название файла, откуда буду брать текст заметок и туда же буду его сохранять
 notesdata = 'notes.data'
 placedata = 'place.data'
 
