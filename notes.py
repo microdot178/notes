@@ -17,7 +17,7 @@ import json
 #f=open(placedata, 'rb')
 #coordinates = pickle.load(f)
 
-with open('sw_templates.json') as f: # теперь сохраняться и загружаться будет в json
+with open('data.json') as f: # теперь сохраняться и загружаться будет в json
     data = json.load(f)
 
 notestext = data['notestext']
@@ -35,7 +35,7 @@ def SaveText():
     #pickle.dump(coordinates, f)
     #f.close()
     data = {'coordinates': coordinates, 'notestext': notestext} # json 
-    with open('sw_templates.json', 'w') as f:                   # json
+    with open('data.json', 'w') as f:                           # json
         f.write(json.dumps(data))                               # json
 
 
