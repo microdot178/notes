@@ -1,4 +1,5 @@
 /venv
-/notes.data
-/place.data
-/startnotes.sh
+notes.data
+place.data
+startnotes.sh
+.gitignore
